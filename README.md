@@ -18,10 +18,14 @@ A common launcher for all Puzzles is provided in the form of CodePuzzleRunner.ja
 The individual Puzzles are created by modifying the provided template "{CLEAN} Template{PUZZLE[NO]_[NO][DOT]JAVA}",
 to create files puzzles with naming structure: 
 
-  Puzzle#_#.java    // # = valid integer ; first #=Puzzle Category ; second #=Individual Puzzle Id
+    Puzzle#_#.java  //             #=Valid Integer 
+                    //      first  #=Puzzle Category  
+                    //      second #=Individual Puzzle Id
                     // this convention must be followed for proper detection and launch by the launcher
                     
 The launcher must be updated to include appropriate Puzzle Category & Individual Puzzle Id as required for new Puzzle.
+Launcher can be used in interactive mode to run all Puzzles or in a more individual puzzle based dev mode, for targeted
+coding and testing puzzle solutions.
 
 The template provides all necessary drivers for each Code Puzzle exercise and can be readily adapted to include multiple
 sub-solutions.
