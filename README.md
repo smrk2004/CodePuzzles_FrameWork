@@ -2,12 +2,14 @@ CodePuzzles_FrameWork
 =====================
 
 INTRO
+-----
 
 A Framework for practicing Java Basics+Other Interesting Puzzles+pre-packaged Implementations of Puzzles
 
 This is a work in progress. The Solutions to Puzzles added are by no means final, and corrections & inputs are welcome.
 
 STRUCTURE
+---------
 
 The structure loosely follows the organization of topics as in seen within the "Code Puzzles App" available at the Apple 
 App Store, but has the ability to be extended.
@@ -31,6 +33,7 @@ The template provides all necessary drivers for each Code Puzzle exercise and ca
 sub-solutions.
 
 INTENDED USE
+------------
 
 * For someone who wants to refer to common solutions to a puzzle; pre-packaged CodePuzzle Solution Implementations are 
 provided.
