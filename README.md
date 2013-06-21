@@ -5,7 +5,7 @@ INTRO
 
 A Framework for practicing Java Basics+Other Interesting Puzzles+pre-packaged Implementations of Puzzles
 
-This is a work in progress. The Solutions to Puzzles added are by no means final, and corrections and inputs are welcome.
+This is a work in progress. The Solutions to Puzzles added are by no means final, and corrections & inputs are welcome.
 
 STRUCTURE
 
