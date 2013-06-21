@@ -1,0 +1,26 @@
+public static ArrayList<ArrayList<String>>  findSubsets_II(ArrayList<String> set)
+{
+		ArrayList<ArrayList<String>> 	sets=new ArrayList<ArrayList<String>>();
+
+		
+		int noOfSubsets=(int) Math.pow(2, set.size());
+		
+		for(int i=0;i<noOfSubsets;i++)
+		{
+			int pos=0;
+			int bitmask=i;
+			if(bitmask==0) sets.add(new ArrayList<String>());
+			else
+			{
+				ArrayList<String> tempSet=new ArrayList<String>();
+				while(bitmask>0)
+				{
+					if((bitmask&1)==1) tempSet.add(set.get(pos));					
+					bitmask>>=1;
+					pos++;
+				}
+				sets.add(tempSet);
+			}
+		}		
+		return sets;
+}
