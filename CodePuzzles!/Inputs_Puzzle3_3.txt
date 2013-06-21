@@ -1,0 +1,22 @@
+Even  #	1  2  3  4  5  6  7  8
+Odd   #	1  2  3  4  5  6  7  
+1.0Indx[0][1][2][3][4][5][6][7]
+2.1Indx[1][2][3][4][5][6][7][8]
+
+1.A)Even-#-Of-INPUTS
+slow   [0][1][2][3][4] //@mid+1 ["fast!=null"] &&fast.next!=null fails
+fast   [0][2][4][6][null]
+2.A)Even-#-Of-INPUTS
+slow   [1][2][3][4][5] //@mid+1	["fast!=null"] &&fast.next!=null fails
+fast   [1][3][5][7][null]
+
+=>Even-#-ofINPUTS = can start comparing immedly./slow @mid+1
+
+1.B)Odd -#-Of-INPUTS
+slow   [0][1][2][3]    //@mid	fast!=null&& ["fast.next!=null"] fails
+fast   [0][2][4][6]
+2.B)Odd -#-Of-INPUTS
+slow   [1][2][3][4]    //@mid	fast!=null&& ["fast.next!=null"] fails
+fast   [1][3][5][7]
+
+=> Odd-#-ofINPUTS = can't start comparing immedly./slow @mid 	//(Need slow+1)

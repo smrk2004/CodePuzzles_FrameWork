@@ -1,0 +1,17 @@
+//	//Trying to upload a custom BST Input(possibly skewed also) - But foll. code fails@SSSS	
+//	public static int getIndex(int[] array,int data)
+//	{
+//		for(int i=0;i<array.length;i++)
+//			if(array[i]==data)	return  i;
+//								return -1;
+//	}
+//	
+//	public static TreeNode_7_1   buildTree(int[] array,int midData)	
+//	{			
+//		int mid=getIndex(array,midData);
+//		if(mid==-1)	return null;
+//		return new TreeNode_7_1(midData,
+//								buildTree(array,0	   ,		  mid-1),
+//								buildTree(array,mid+1, array.length-1) );
+//	}
+	

@@ -1,0 +1,48 @@
+#To convert findPermutations to findSubsets! >>
+
+A.add global List argument to findPermutations:
+ "ArrayList<String> global"
+B.Inside; add string being added to retList, to globalList too!(use boolean 'canAdd' var for globalList; to add each combo only once: i.e. picked char w/ + first of many perms]:
+		global.add(s) 	//length=1 cond
+	&	global.add(sub)	//aft sub=charAt(i)+subPerm					//Mid to I
+				  (or)
+				  aft sub=subPerm.substring(0,i)+charAt(0)+subPerm.substring(i) //I to Mid
+
+Drivers >>
+
+1.={	for(String s:ls)	findPermutations_II(s,global); 	}
+2.={			/*None*/				}
+Common.=
+Pre{	ArrayList<String> global=new ArrayList<String>();
+   }
+Post
+   {	global.add("");		System.out.print("\nGlobal List[Initl]:[ ");																				
+	for(String s:global)	System.out.print(s+" ");
+				System.out.print("]");				
+
+	HashMap<String,Boolean> met=new HashMap<String,Boolean>();
+	ArrayList<String> ls2=new ArrayList<String>();
+
+	for(String s:global)
+	{	char[] tempArray=s.toCharArray();
+		Arrays.sort(tempArray);
+		if(!met.containsKey(new String(tempArray)))
+		{
+			met.put(s,null);
+			ls2.add(s);
+		}
+	}
+				System.out.print("\nGlobal List[Final]:[ ");						
+	for(String s:ls2)	System.out.print("{"+s+"} ");
+													System.out.print("]");
+   }
+
+IP = abc
+
+OP #1 (Mid to I)
+Global List[Initl]:[ c bc b cb abc c ac a ca bac b ab a ba cab  ]
+Global List[Final]:[ {c} {bc} {b} {abc} {ac} {a} {ab} {} ]
+
+OP #2 (I to Mid)
+Global List[Initl]:[ c bc abc acb c bc abc acb c ac bac bca a ca bca bac b cb acb abc b ab cab cba a ba cba cab  ]
+Global List[Final]:[ {c} {bc} {abc} {ac} {a} {b} {ab} {} ]
