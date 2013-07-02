@@ -48,12 +48,13 @@ INDEX
 
 
 Puzzle Launcher	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / ]			===============>
-
+```
 CodePuzzleRunner.java
 
-
+```
 Solved Puzzles 	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / codePuzzles / ] 	==============>
 
+```
 // Category 1:Strings & Arrays
 
 Puzzle1_1.java	-	"Check Unique Strings"			<2 solution(s): "ASCII Strings/[Flag Array Soln]" , "Unicode Strings/[HashMap Soln]" >
@@ -137,7 +138,5 @@ Puzzle7_1.java	-	"Create Tree(Binary Search Tree) From Sorted Array"
 								<1 solution(s): "Default-Recurse Similar to Binary Search-say: \"Binary Add\"{Algo:Find Mid->Add Root; (Start:Mid-1) for left; (Mid+1:End) for right; recurse} /[Simple Recursive Solution]" >
 								
 Puzzle7_2.java	-	"Create Tree(Binary Tree) From Custom String"
-								<1 solution(s): "Default /[Simple Recursive Solution]" >
-								
-								
-
+								<1 solution(s): "Default /[Simple Recursive Solution]" >																
+```
