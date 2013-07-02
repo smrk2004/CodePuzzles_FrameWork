@@ -46,13 +46,13 @@ need fill in the logic corresponding to that puzzle title - without worrying abo
 INDEX
 -----
 
+Puzzle Launcher	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / ]
 
-Puzzle Launcher	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / ]			===============>
 ```
 CodePuzzleRunner.java
 ```
 
-Solved Puzzles 	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / codePuzzles / ] 	==============>
+Solved Puzzles 	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / codePuzzles / ]
 
 ```
 // Category 1:Strings & Arrays
