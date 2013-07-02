@@ -3,7 +3,7 @@ package codePuzzles;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Puzzle5_3 {
+public class Puzzle5_3 {//Sort & Search:Find Index
 	/**
 	 * @param args
 	 */	
