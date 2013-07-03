@@ -36,8 +36,7 @@ private	static boolean interactiveRun=/*false;//*/true;
 		if(i!=0)
 			categs.put(i,new ArrayList<String>());
 		
-//		
-/*		
+///*		
 		//subcategs of Categ -1:Extra
 			categs.get(-1).add("String Substition");
 			categs.get(-1).add("Spiral Printing");

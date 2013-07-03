@@ -55,6 +55,16 @@ CodePuzzleRunner.java
 Solved Puzzles 	[ Within Path: CodePuzzles_FrameWork / CodePuzzles! / src / codePuzzles / ]
 
 ```
+
+// Category -1:Extra
+
+PuzzleMinus1_1.java	-	"String Substition"				<2 solution(s): "Naive Iteration - for one occurence of each 'toFind' String ONLY - \"Incomplete wrt. multiple Occurences\" /[Iterative Soln]" , "Natural Recursion - Mulitiple Occurences of 'toFind' String /[Recursive Soln]" >
+
+PuzzleMinus1_2.java	-	"Spiral Printing"				<1 solution(s): "Simple Divide & Conquer /[Recursive Solution]" >
+
+PuzzleMinus1_3.java	-	"Ultimate Tic Tac Toe"			<1 solution(s): "Naive Game /[Simple Solution]" >
+
+
 // Category 1:Strings & Arrays
 
 Puzzle1_1.java	-	"Check Unique Strings"				<2 solution(s): "ASCII Strings/[Flag Array Soln]" , "Unicode Strings/[HashMap Soln]" >
@@ -139,4 +149,5 @@ Puzzle7_1.java	-	"Create Tree(Binary Search Tree) From Sorted Array"
 								
 Puzzle7_2.java	-	"Create Tree(Binary Tree) From Custom String"
 														<1 solution(s): "Default /[Simple Recursive Solution]" >																
+														
 ```
